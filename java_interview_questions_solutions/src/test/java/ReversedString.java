@@ -12,6 +12,11 @@ public class ReversedString {
         }
         System.out.println(reversedName);
 
+        //BEST WAY:
+        String name="Yusuf Bayram".toLowerCase();
+        String reverseName=new StringBuilder(name).reverse().toString();
+        System.out.println(reverseName);
+
         }
     }
 
