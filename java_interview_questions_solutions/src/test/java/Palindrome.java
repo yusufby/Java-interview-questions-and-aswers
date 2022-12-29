@@ -5,6 +5,7 @@ public class Palindrome {
         System.out.println(palindrome("yusuf"));
         System.out.println(palindrome("yusuy"));
         System.out.println(palindrome("fatma"));
+        System.out.println(palindromeWithChar("yusuy"));
 
     }
 
@@ -16,4 +17,24 @@ public class Palindrome {
         return strReversed.reverse().toString().equals(str);
 
     }
+
+    //Palindrome – with charAt()
+
+    public static boolean palindromeWithChar(String palindrome){
+        int head=0;
+        int tail=palindrome.length()-1;
+
+        while (head<tail){
+            if (palindrome.charAt(head)==palindrome.charAt(tail)){
+                return true;
+            }
+            head++;
+            tail--;
+
+        }
+        return false;
+
+
+    }
+
 }
