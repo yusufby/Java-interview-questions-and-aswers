@@ -20,16 +20,7 @@ public class LargestNumberInArray {
         Collections.sort(numbers2);
         System.out.println(numbers2.get(numbers2.size() - 1));
 
-        //Largest Number in Array using Collections with loop
-        List<Integer> numbers3=new ArrayList<>(numbers2);
-        numbers3.add(900);
-        numbers3.add(90);
-        numbers3.add(307);
-        System.out.println(numbers3);
-        int biggestNum=0;
-//        for (int i = 0; i < numbers3.size()-1; i++) {
-//            if (biggestNum>)
-        }
+    }
 
 
     }
