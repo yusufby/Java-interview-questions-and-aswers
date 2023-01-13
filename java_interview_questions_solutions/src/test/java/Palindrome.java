@@ -5,7 +5,7 @@ public class Palindrome {
         System.out.println(palindrome("yusuf"));
         System.out.println(palindrome("yusuy"));
         System.out.println(palindrome("fatma"));
-        System.out.println(palindromeWithChar("yusuy"));
+        System.out.println(palindromeWithChar("lolol"));
 
     }
 

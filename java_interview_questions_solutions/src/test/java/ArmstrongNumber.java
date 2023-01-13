@@ -6,7 +6,7 @@ public class ArmstrongNumber {
         int sum = 0;
         int digit;
         int temp;
-        int number = 370;
+        int number = 371;
         temp = number;
         while(temp >0){
             digit = temp %10;

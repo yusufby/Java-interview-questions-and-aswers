@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -10,6 +11,7 @@ public class FindTwoMaxNumbers {
         System.out.println(numbers[numbers.length-1]);
 
         System.out.println(numbers[numbers.length-2]);
+
 
 
 
