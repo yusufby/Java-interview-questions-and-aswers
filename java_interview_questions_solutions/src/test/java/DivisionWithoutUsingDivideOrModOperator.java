@@ -5,6 +5,7 @@ public class DivisionWithoutUsingDivideOrModOperator {
         System.out.println(division(54, 10));
         System.out.println(division(90,6));
         System.out.println(division(100,5));
+        System.out.println(division(120,6));
     }
     public static String division(int divident, int divisor){
         int quotient=0;
