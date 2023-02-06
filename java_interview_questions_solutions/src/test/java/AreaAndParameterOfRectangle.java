@@ -8,6 +8,7 @@ public class AreaAndParameterOfRectangle {
         double perimeter=2*(width+height);
         System.out.println("Area is " + area);
         System.out.println("Perimeter is "+perimeter);
+        System.out.println();
 
 
     }
