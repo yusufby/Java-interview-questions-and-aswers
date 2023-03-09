@@ -10,7 +10,6 @@ public class FindDifference {
         System.out.println(diff21(21));
         System.out.println(diff21(33));
         System.out.println(diff21(2));
-        System.out.println(diff21(45));
 
     }
 
